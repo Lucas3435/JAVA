@@ -8,6 +8,7 @@ public class Main {
             double b = sc.nextDouble();
             String s = sc.next();
             System.out.println("a = " + a + ", b = " + b + ", s = " + s);
+            System.out.printf("a = %d, b = %.2f, s = %s\n", a, b, s);
         }
         for (int i = 0; i < 5; i++) {}
     }
